@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#070b14">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%23ff9f1c'/><text x='32' y='42' font-family='Arial' font-size='26' font-weight='bold' text-anchor='middle' fill='%23111'>IL</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<title>INTOR LANKA — Quality Automotive Spare Parts in Sri Lanka</title>
+<meta name="description" content="INTOR LANKA — your trusted partner for quality automotive spare parts. Browse engine parts, brakes, filters, batteries and more with island-wide delivery and Cash on Delivery.">
+<base target="_blank">
+</head>
+<body>
+<div id="site-header"></div>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-inner">
+      <span class="hero-kicker">⚙️ Genuine &amp; Reconditioned Parts</span>
+      <h1>INTOR <span>LANKA</span></h1>
+      <p class="lead">Your Trusted Partner for Quality Automotive Spare Parts.</p>
+      <form class="hero-search" id="hero-search-form" role="search">
+        <input id="hero-search-input" type="search" placeholder="Search by part name, code, vehicle brand or model…" aria-label="Search spare parts">
+        <button type="submit">Search</button>
+      </form>
+      <div class="hero-ctas">
+        <a class="btn btn-accent" href="catalog.html">🛒 Shop Now</a>
+        <a class="btn btn-ghost" href="catalog.html">Browse Products</a>
+        <a class="btn btn-ghost" href="contact.html">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Featured Products</h2>
+      <a href="catalog.html">View all products →</a>
+    </div>
+    <div class="grid grid-products" id="featured-products"></div>
+    <p class="muted" style="margin-top:14px; font-size:.78rem;">Sample products shown for demonstration — replace with actual INTOR LANKA inventory via the admin dashboard.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head"><h2>Shop by Category</h2></div>
+    <div class="grid grid-cats" id="category-grid"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="offer-banner">
+      <div>
+        <h3>🚚 Island-wide Delivery · Cash on Delivery</h3>
+        <p>Order online and pay when your parts arrive. Estimated delivery within 1–3 working days across Sri Lanka. <em>(Sample offer — edit via Admin → Settings)</em></p>
+      </div>
+      <a class="btn btn-accent" href="catalog.html">Start Shopping</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head"><h2>Why Choose INTOR LANKA?</h2></div>
+    <div class="grid grid-3">
+      <div class="card feature-card"><span class="cat-ic">✅</span><h3>Quality Guaranteed</h3><p>Every part is checked for quality and compatibility before it reaches your hands.</p></div>
+      <div class="card feature-card"><span class="cat-ic">💰</span><h3>Fair Prices in LKR</h3><p>Transparent pricing in Sri Lankan Rupees with no hidden charges.</p></div>
+      <div class="card feature-card"><span class="cat-ic">🚚</span><h3>Fast Island-wide Delivery</h3><p>Reliable delivery to your doorstep with Cash on Delivery available.</p></div>
+      <div class="card feature-card"><span class="cat-ic">🔍</span><h3>Easy Part Search</h3><p>Find parts by name, code, brand or model in seconds.</p></div>
+      <div class="card feature-card"><span class="cat-ic">📞</span><h3>Personal Support</h3><p>Call or WhatsApp us for help finding the right part for your vehicle.</p></div>
+      <div class="card feature-card"><span class="cat-ic">🛡️</span><h3>Trusted Business</h3><p>A professional, customer-focused spare parts partner you can rely on.</p></div>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+<script src="js/data.js"></script>
+<script src="js/firebase-config.js"></script>
+<script src="js/store.js"></script>
+<script src="js/main.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#070b14">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%23ff9f1c'/><text x='32' y='42' font-family='Arial' font-size='26' font-weight='bold' text-anchor='middle' fill='%23111'>IL</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<title>Spare Parts Catalog — INTOR LANKA</title>
+<meta name="description" content="Browse the full INTOR LANKA catalog: engine parts, brakes, suspension, electrical parts, filters, batteries and more. Search, filter and order online with Cash on Delivery.">
+<base target="_blank">
+</head>
+<body>
+<div id="site-header"></div>
+<section class="page-hero"><div class="wrap"><h1 class="page-title">Spare Parts Catalog</h1>
+<p class="page-sub" style="margin-bottom:0;">Search, filter and order quality automotive spare parts. Prices in LKR.</p></div></section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="catalog-layout">
+      <aside class="filters" aria-label="Product filters">
+        <h3>Filters</h3>
+        <div class="filter-group">
+          <label for="filter-category">Category</label>
+          <select id="filter-category"><option value="">All categories</option></select>
+        </div>
+        <div class="filter-group">
+          <label for="filter-brand">Vehicle Brand</label>
+          <select id="filter-brand"><option value="">All brands</option></select>
+        </div>
+        <div class="filter-group">
+          <label>Price Range (LKR)</label>
+          <div class="price-row">
+            <input type="number" id="price-min" min="0" placeholder="Min" aria-label="Minimum price">
+            <span>–</span>
+            <input type="number" id="price-max" min="0" placeholder="Max" aria-label="Maximum price">
+          </div>
+        </div>
+        <div class="filter-group">
+          <label>Availability</label>
+          <div id="filter-availability">
+            <label class="check-row"><input type="checkbox" value="in"> In Stock</label>
+            <label class="check-row"><input type="checkbox" value="low"> Low Stock</label>
+            <label class="check-row"><input type="checkbox" value="out"> Out of Stock</label>
+          </div>
+        </div>
+        <button class="btn btn-ghost btn-sm" id="clear-filters" style="width:100%;">Clear all filters</button>
+      </aside>
+      <div>
+        <div class="catalog-toolbar">
+          <input type="search" id="catalog-search" placeholder="Search name, code, brand or model…" aria-label="Search products">
+          <select id="sort-select" aria-label="Sort products">
+            <option value="newest">Sort: Newest arrivals</option>
+            <option value="popular">Sort: Most popular</option>
+            <option value="price-asc">Price: Low → High</option>
+            <option value="price-desc">Price: High → Low</option>
+          </select>
+        </div>
+        <p class="results-note" id="results-note"></p>
+        <div class="grid grid-products" id="product-grid" style="margin-top:12px;"></div>
+        <p class="muted" style="margin-top:16px; font-size:.78rem;">Products, prices and stock levels shown are clearly labelled sample data until actual INTOR LANKA inventory is entered.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+<script src="js/data.js"></script>
+<script src="js/firebase-config.js"></script>
+<script src="js/store.js"></script>
+<script src="js/main.js"></script>
+<script src="js/catalog.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#070b14">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%23ff9f1c'/><text x='32' y='42' font-family='Arial' font-size='26' font-weight='bold' text-anchor='middle' fill='%23111'>IL</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<title>Shopping Cart & Checkout — INTOR LANKA</title>
+<meta name="description" content="Review your INTOR LANKA order and check out with Cash on Delivery. Island-wide delivery across Sri Lanka.">
+<base target="_blank">
+</head>
+<body>
+<div id="site-header"></div>
+<section class="page-hero"><div class="wrap"><h1 class="page-title">Shopping Cart</h1>
+<p class="page-sub" style="margin-bottom:0;" id="delivery-note"></p></div></section>
+
+<section class="section">
+  <div class="wrap" id="view-cart">
+    <div class="cart-layout">
+      <div class="table-wrap">
+        <table class="cart-table">
+          <thead><tr><th>Product</th><th class="hide-sm">Unit Price</th><th>Quantity</th><th>Amount</th><th></th></tr></thead>
+          <tbody id="cart-body"></tbody>
+        </table>
+      </div>
+      <div>
+        <div class="summary-card">
+          <h3>Order Summary</h3>
+          <div class="sum-row"><span>Subtotal</span><span id="sum-subtotal">LKR 0</span></div>
+          <div class="sum-row"><span>Delivery</span><span id="sum-delivery">LKR 0</span></div>
+          <div class="sum-row total"><span>Total</span><span id="sum-total">LKR 0</span></div>
+          <p class="muted" style="font-size:.78rem; margin:10px 0 16px;">💵 Payment: Cash on Delivery. Online payments coming soon.</p>
+        </div>
+        <div class="summary-card" style="margin-top:18px;">
+          <h3>Delivery Details</h3>
+          <form id="checkout-form" class="form-grid" style="grid-template-columns:1fr;" novalidate>
+            <div class="form-group"><label for="f-name">Full Name *</label><input id="f-name" name="name" required autocomplete="name"></div>
+            <div class="form-group"><label for="f-phone">Phone Number *</label><input id="f-phone" name="phone" required autocomplete="tel" placeholder="07X XXX XXXX"></div>
+            <div class="form-group"><label for="f-email">Email (optional)</label><input id="f-email" name="email" type="email" autocomplete="email"></div>
+            <div class="form-group"><label for="f-address">Delivery Address *</label><textarea id="f-address" name="address" rows="2" required autocomplete="street-address"></textarea></div>
+            <div class="form-group"><label for="f-city">City / Town *</label><input id="f-city" name="city" required></div>
+            <div class="form-group"><label for="f-notes">Order Notes (optional)</label><textarea id="f-notes" name="notes" rows="2" placeholder="Vehicle details, special instructions…"></textarea></div>
+            <span class="err" id="form-error" style="grid-column:1/-1;"></span>
+            <button class="btn btn-accent" id="place-order-btn" type="submit">Place Order — Cash on Delivery</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrap hidden" id="view-confirmation"></div>
+</section>
+
+<div id="site-footer"></div>
+<script src="js/data.js"></script>
+<script src="js/firebase-config.js"></script>
+<script src="js/store.js"></script>
+<script src="js/main.js"></script>
+<script src="js/cart.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#070b14">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%23ff9f1c'/><text x='32' y='42' font-family='Arial' font-size='26' font-weight='bold' text-anchor='middle' fill='%23111'>IL</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<title>Admin Dashboard — INTOR LANKA</title>
+<meta name="robots" content="noindex">
+<base target="_blank">
+</head>
+<body>
+<div id="site-header"></div>
+<section class="section"><div class="wrap" id="admin-root"><div class="spinner"></div></div></section>
+<div id="site-footer"></div>
+<script src="js/data.js"></script>
+<script src="js/firebase-config.js"></script>
+<script src="js/store.js"></script>
+<script src="js/main.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>
